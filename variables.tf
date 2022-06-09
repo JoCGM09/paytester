@@ -23,7 +23,7 @@ variable "processors" {
 }
 variable "instance_name" {
   type        = string
-  default     = "my_test_vm_chase"
+  default     = "paytesteruser1"
   description = "The name to assign to the instance"
 }
 variable "processor_type" {

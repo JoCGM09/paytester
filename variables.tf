@@ -53,6 +53,6 @@ variable "ssh_key" {
 }
 variable "network_name" {
   type        = string
-  default = "chase-tf-test1"
+  default = "clai-sn1"
   description = "The network ID or name to assign to the instance, as defined for the selected Power Systems Virtual Server CRN"
 }

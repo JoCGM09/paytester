@@ -48,7 +48,7 @@ variable "ssh_key_name" {
 }
 variable "ssh_key" {
   type        = string
-  default = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCmW5b+shyeSVQrFFshL8YPMGxZdZZT+Ukvp1fMgQCTUS0DSH3GhoJeSvcZSjvDdBDKfy98TFQf3JcZyVLQsiEtymtCPmkZV5kzZRfOdG/Ush034S+RaCXZ7pINoy5VDmYRtgBk8h2urB/jAM/wMR/83DCfpY0BLvvNDJ8jQoBmIaZM5KmdpBqRd9bhmhavWZy/P4KJZctn/45cTkAtW1jd9+oKdIzpoNykcsWXChY8C6SzUXcYBgXluOwnY1fPPdZUyPUghoGqDbHi95E8ee07fap7iS4E+yCAMbW5zIVpOo8SLbLxqWF6JD7pc8oMtgqrxsT01O+3S65QSYZazR1FG7lgyTOGBCuvPxkTbtBk8ytmYuRnFs2XZOR2vD9BSpc7XgDt79SLZS3oIQVwqJBpVZWIJIDbnc8yHRY9X6yDgojBAm5S9KC4vZKMmQ9LBUUOy85XOueDeICGJdt3POefffWNv0kQ/Fscsw/yJS82lOdWo8eHmlLb1ybpr1pp+Is= chase@Chases-MBP.gha.chartermi.net"
+  default = "ssh-rsa xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
   description = "The name of the public SSH RSA key to use when creating the instance, as defined for the selected Power Systems Virtual Server CRN"
 }
 variable "network_name" {

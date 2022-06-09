@@ -9,7 +9,7 @@ variable "crn" {
 }
 variable "image_name" {
   description = "Name of the image you want to use"
-  default     = "7100-05-05"
+  default     = "ptnew"
 }
 variable "memory" {
   type        = number

@@ -1,6 +1,6 @@
 variable "ibm_cloud_api_key" {
   description = "API Key to use."
-  default     = "Nf114p_M-ITI4Hb2h1-5ssio59iOTt-afXEdHNWwxUjZ"
+  default     = "xxxxxxxxxxxxxxxxxxxxxxxxxxx"
 }
 variable "crn" {
   type        = string
@@ -43,7 +43,7 @@ variable "storage_type" {
 }
 variable "ssh_key_name" {
   type        = string
-  default = "chase-tf-test1"
+  default = "paytestersshkey1"
   description = "The name of the public SSH RSA key to use when creating the instance, as defined for the selected Power Systems Virtual Server CRN"
 }
 variable "ssh_key" {
@@ -53,6 +53,6 @@ variable "ssh_key" {
 }
 variable "network_name" {
   type        = string
-  default = "clai-sn1"
+  default = "paytester-sn1"
   description = "The network ID or name to assign to the instance, as defined for the selected Power Systems Virtual Server CRN"
 }

@@ -9,7 +9,7 @@ variable "crn" {
 }
 variable "image_name" {
   description = "Name of the image you want to use"
-  default     = "paytesterv1"
+  default     = "paytester-image-bci"
 }
 variable "memory" {
   type        = number

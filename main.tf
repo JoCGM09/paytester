@@ -42,13 +42,13 @@ resource "ibm_pi_network" "power_priv_network" {
 data "ibm_pi_network" "pub-network" {
   depends_on           = [ibm_pi_network.power_pub_network]
   pi_cloud_instance_id = local.cloud_instance_id
-  pi_network_name = var.network_name
+  pi_network_name = "pub-network"
 }  
   
 data "ibm_pi_network" "priv-network" {
   depends_on           = [ibm_pi_network.power_priv_network]
   pi_cloud_instance_id = local.cloud_instance_id
-  pi_network_name = var.network_name
+  pi_network_name = "priv-network"
 }
 
 

@@ -19,6 +19,7 @@ resource "ibm_pi_network" "power_pub_network" {
   pi_network_name      = "pub-network"  
   pi_cloud_instance_id = local.cloud_instance_id
   pi_network_type      = "pub-vlan"
+  pi_dns               = "9.9.9.9"
 #  pi_cidr              = "192.168.129.0/29"
 #  pi_gateway           = "192.168.0.1"
 #  pi_ipaddress_range {
@@ -32,6 +33,7 @@ resource "ibm_pi_network" "power_priv_network" {
   pi_network_name      = "priv-network" 
   pi_cloud_instance_id = local.cloud_instance_id
   pi_network_type      = "vlan"
+  pi_dns               = "127.0.0.1"
   pi_cidr              = "192.168.0.0/24"
   pi_gateway           = "192.168.0.1"
   pi_ipaddress_range {

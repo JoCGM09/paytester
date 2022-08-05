@@ -67,9 +67,9 @@ resource "ibm_pi_instance" "instance" {
    {
     network_id = data.ibm_pi_network.pub-network.id
    }
-   ,
-   {
-    network_id = data.ibm_pi_network.priv-network.id
-   } 
+#   ,
+#   {
+#    network_id = data.ibm_pi_network.priv-network.id
+#   } 
   ]
 }

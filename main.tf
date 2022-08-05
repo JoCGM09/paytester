@@ -16,7 +16,7 @@ data "ibm_pi_image" "power_image" {
 
 resource "ibm_pi_network" "power_pub_network" {
   count                = 1
-  pi_network_name      = "${data.cloud_instance_id.name}-pub-network"  
+  pi_network_name      = "pub-network"  
   pi_cloud_instance_id = local.cloud_instance_id
   pi_network_type      = "pub-vlan"
   pi_cidr              = "192.168.129.0/29"
@@ -28,7 +28,7 @@ resource "ibm_pi_network" "power_pub_network" {
 
 resource "ibm_pi_network" "power_priv_network" {
   count                = 1
-  pi_network_name      = "${data.cloud_instance_id.name}-priv-network" 
+  pi_network_name      = "priv-network" 
   pi_cloud_instance_id = local.cloud_instance_id
   pi_network_type      = "vlan"
   pi_cidr              = "192.168.0.0/24"

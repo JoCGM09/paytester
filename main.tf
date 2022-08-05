@@ -25,6 +25,7 @@ resource "ibm_pi_network" "power_pub_network" {
     pi_starting_ip_address  = "192.168.0.2"
     pi_ending_ip_address    = "192.168.0.6"
   }
+}
 
 resource "ibm_pi_network" "power_priv_network" {
   count                = 1

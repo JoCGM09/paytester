@@ -51,8 +51,8 @@ variable "ssh_key" {
   default = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDkMw4JstyNXBNqW9GjFN2dPRawwroCR2US5vf0O06rW/xrjudMJnOIGvUOF2kAU0oQezWV6qDTr8tfCXQYK5OKhF8TLWuegRDueErseVSo7Ehm8YWACTgrEHvrxnOyRpqib5WY6oa5+gCrkCR63RSFFpmwhNxPAwIx++A1RFqUzXwWjlWcIKAKwtPa5mUeT2cKc00cD8oihM+E2SuzlNlktkdkPe9/Yljy/+XJ2pTX/ORKGUy83uxc9n454tHwM9Q0Km9G/th8pmJKyxoYhhnwT8aVl0NTLFXPwKe8M0SQU4T3wXefLogzyBR8ySFBf+L9X+DgZNjJ8ZWl6xwkIFbzA0UdbI3XDXLUbwFOKAdFqPh5+h4x6T55lfAtDICMG8Xu2yqh4BAj11XUIW1mTx2v6F+UustjxXy5V1bjMApMtJWQ2BG3zXoAnbPJvu0DG//Sg6nurI1fkynVMUG71oir9FWqewed/C34J4Bam9rfuLvSrpBWSKpttzPUADIW6pk= gtupac"
   description = "The name of the public SSH RSA key to use when creating the instance, as defined for the selected Power Systems Virtual Server CRN"
 }
-#variable "network_name" {
-#  type        = string
-#  default = "paytester-sn1"
-#  description = "The network ID or name to assign to the instance, as defined for the selected Power Systems Virtual Server CRN"
-#}
+variable "network_name" {
+  type        = string
+  default = "paytester-sn1"
+  description = "The network ID or name to assign to the instance, as defined for the selected Power Systems Virtual Server CRN"
+}

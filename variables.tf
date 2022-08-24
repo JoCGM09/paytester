@@ -1,15 +1,15 @@
 variable "ibm_cloud_api_key" {
   description = "API Key to use."
-  default     = "WnsfD2SkkynoDxLzuSXKYNy1xGTaW2L3KeVfhqRc9KGR"
+  default     = "Qb4nkWx1aO4yzQ6LsWhg-tpVv3prStRDAI7QdT889gIl"
 }
 variable "crn" {
   type        = string
-  default     = "crn:v1:bluemix:public:power-iaas:us-south:a/3ef163dabf7957b88258cea90efee5c4:e5033316-fb5f-4535-8cba-5cde302aa35e::"
+  default     = "crn:v1:bluemix:public:power-iaas:us-south:a/035c4a9a8dfd4a969cd9409ae37d139c:d79a6170-22cc-47a0-bede-5f141d44f6c0::"
   description = "Power Systems Virtual Server CRN"
 }
 variable "image_name" {
   description = "Name of the image you want to use"
-  default     = "paytester-custom-image"
+  default     = "paytester-custom"
 }
 variable "memory" {
   type        = number
